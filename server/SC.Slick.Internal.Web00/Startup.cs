@@ -1,0 +1,12 @@
+﻿using Owin;
+
+namespace SC.Slick.Internal.Web
+{
+    public partial class Startup
+    {
+        public void Configuration(IAppBuilder app)
+        {
+            ConfigureAuth(app);
+        }
+    }
+}
