@@ -1,0 +1,74 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "sketch.net"
+  },
+  "apps": [{
+    "root": "src",
+    "outDir": "dist",
+    "assets": [
+      "assets",
+      "assets/favicon.ico",
+      "offline.html"
+    ],
+    "index": "index.html",
+    "main": "main.ts",
+    "polyfills": "polyfills.ts",
+    "tsconfig": "tsconfig.app.json",
+    "prefix": "app",
+    "styles": [
+      "assets/css/icons/icomoon/styles.css",
+      "assets/css/roboto/roboto.css",
+      "assets/css/bootstrap.css",
+      "assets/css/core.css",
+      "assets/css/components.css",
+      "assets/css/colors.css",
+      "assets/css/sketch.css"
+    ],
+    "scripts": [
+      "assets/js/core/libraries/jquery.min.js",
+      "assets/js/core/libraries/bootstrap.min.js",
+      "assets/js/core/libraries/moment.min.js",
+      "assets/js/core/libraries/underscore.min.js",
+      "assets/js/plugins/loaders/pace.min.js",
+      "assets/js/plugins/editors/ace/ace.js",
+      "assets/js/plugins/editors/ace/mode-json.js",
+      "assets/js/plugins/editors/ace/theme-monokai.js",
+      "assets/js/plugins/editors/ace/worker-json.js",
+      "assets/js/plugins/editors/beautify.min.js",
+      "assets/js/plugins/loaders/blockui.min.js",
+      "assets/js/plugins/ui/nicescroll.min.js",
+      "assets/js/plugins/forms/inputs/touchspin.min.js",
+      "assets/js/plugins/forms/inputs/switch.min.js",
+      "assets/js/plugins/forms/selects/select2.min.js",
+      "assets/js/plugins/pickers/color/spectrum.js",
+      "assets/js/plugins/tables/datatables/datatables.min.js",
+      "assets/js/plugins/tables/datatables/extensions/responsive.min.js",
+      "assets/js/plugins/tables/datatables/extensions/buttons.min.js",
+      "assets/js/plugins/tables/datatables/extensions/jszip/jszip.min.js",
+      "assets/js/plugins/tables/datatables/extensions/pdfmake/pdfmake.min.js",
+      "assets/js/plugins/tables/datatables/extensions/pdfmake/vfs_fonts.min.js",
+      "assets/js/core/app.js"
+    ],
+    "environmentSource": "environments/environment.ts",
+    "environments": {
+      "dev": "environments/environment.ts",
+      "prod": "environments/environment.prod.ts"
+    }
+  }],
+  "lint": [{
+    "project": "src/tsconfig.app.json",
+    "exclude": "**/node_modules/**"
+  }],
+  "defaults": {
+    "serve": {
+      "port": 1000,
+      "host": "localhost"
+    },
+    "styleExt": "css",
+    "component": {}
+  },
+  "warnings": {
+    "typescriptMismatch": false
+  }
+}

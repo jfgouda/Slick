@@ -1,0 +1,73 @@
+<div class="content-group">
+  <div class="page-header page-header-default page-header-xs">
+    <div class="page-header-content">
+      <div class="page-title">
+        <h5>
+          <i class="icon-fire position-left"></i>
+          <span class="text-semibold">NEW GAS REQUEST</span>
+        </h5>
+      </div>
+    </div>
+    <div class="breadcrumb-line">
+      <ul class="breadcrumb">
+        <li>
+          <a [routerLink]="['/bca/list']">
+            <i class="icon-chart position-left"></i> Search BCA
+          </a>
+        </li>
+        <li class="active">
+          BCA # {{bca.projectId}} - {{bca.projectName}}
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    <div class="container-detached">
+      <div id="contentPanel" class="panel panel-flat border-top border-top-info">
+        <div class="panel-heading">
+          <h6 class="panel-title no-margin text-semibold">
+            <i class="icon-reading position-left"></i> BCA # {{bca.projectId}} - {{bca.projectName}}
+          </h6>
+        </div>
+        <div class="panel-body" style="padding-top: 15px;">
+          <blockquote class="no-margin no-padding">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th style="border-top-width: 0; width: 25%;">Project id:</th>
+                  <td style="border-top-width: 0;">
+                    <span>{{bca.projectId}}</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Project Name:</th>
+                  <td>
+                    <span>{{bca.projectName}}</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Applicant Name:</th>
+                  <td>
+                    <span>{{bca.applicantName}}</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>LDC:</th>
+                  <td>
+                    <span>{{bca.company}}</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>County:</th>
+                  <td>
+                    <span>{{bca.county}}</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

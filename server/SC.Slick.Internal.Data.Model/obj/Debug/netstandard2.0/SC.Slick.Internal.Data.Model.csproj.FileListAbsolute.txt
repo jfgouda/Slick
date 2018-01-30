@@ -1,0 +1,9 @@
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Model\bin\Debug\netstandard2.0\SC.Slick.Internal.Data.Model.deps.json
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Model\bin\Debug\netstandard2.0\SC.Slick.Internal.Data.Model.dll
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Model\bin\Debug\netstandard2.0\SC.Slick.Internal.Data.Model.pdb
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Model\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Model.csprojResolveAssemblyReference.cache
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Model\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Model.csproj.CoreCompileInputs.cache
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Model\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Model.AssemblyInfoInputs.cache
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Model\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Model.AssemblyInfo.cs
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Model\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Model.dll
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Model\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Model.pdb

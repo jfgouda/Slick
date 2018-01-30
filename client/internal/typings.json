@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "chrome": "file:./src/typings/chrome.d.ts"
+  }
+}

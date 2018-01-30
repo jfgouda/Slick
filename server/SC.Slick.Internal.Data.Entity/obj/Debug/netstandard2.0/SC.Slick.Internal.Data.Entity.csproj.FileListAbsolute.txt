@@ -1,0 +1,9 @@
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Entity\bin\Debug\netstandard2.0\SC.Slick.Internal.Data.Entity.deps.json
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Entity\bin\Debug\netstandard2.0\SC.Slick.Internal.Data.Entity.dll
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Entity\bin\Debug\netstandard2.0\SC.Slick.Internal.Data.Entity.pdb
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Entity\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Entity.csprojResolveAssemblyReference.cache
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Entity\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Entity.csproj.CoreCompileInputs.cache
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Entity\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Entity.AssemblyInfoInputs.cache
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Entity\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Entity.AssemblyInfo.cs
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Entity\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Entity.dll
+C:\Users\x2jhakee\source\repos\SC.Slick\SC.Slick.Internal.Data.Entity\obj\Debug\netstandard2.0\SC.Slick.Internal.Data.Entity.pdb

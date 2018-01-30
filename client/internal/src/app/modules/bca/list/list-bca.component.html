@@ -1,0 +1,61 @@
+<div class="content-group">
+  <div class="page-header page-header-default page-header-xs">
+    <div class="page-header-content">
+      <div class="page-title">
+        <h5>
+          <i class="icon-fire position-left"></i>
+          <span class="text-semibold">NEW GAS REQUEST</span>
+        </h5>
+      </div>
+    </div>
+    <div class="breadcrumb-line">
+      <ul class="breadcrumb">
+        <li class="active">
+          <i class="icon-chart position-left"></i>
+          Search BCA
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    <div class="container-detached">
+      <connectivity></connectivity>
+      <div id="contentPanel" class="panel panel-flat border-top border-top-info" style="min-height: 200px;">
+        <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="table datatable-bcaList table-bordered table-hover datatable-highlight">
+          <thead>
+            <tr>
+              <th>Project Id</th>
+              <th>Project Name</th>
+              <th>Applicant Name</th>
+              <th>LDC</th>
+              <th>County</th>
+              <th class="text-center">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let bca of bcaList">
+              <td>{{ bca.projectId }}</td>
+              <td>{{ bca.projectName }}</td>
+              <td>{{ bca.applicantName }}</td>
+              <td>{{ bca.company }}</td>
+              <td>{{ bca.county }}</td>
+              <td class="text-center">
+                <div class="btn-group">
+                  <a class="btn btn-default btn-icon btn-xs" [routerLink]="['/bca/view/', bca.id]">
+                    <i class="icon-eye text-info"></i>
+                  </a>
+                  <a class="btn btn-default btn-icon btn-xs" [routerLink]="['/bca/edit/', bca.id]">
+                    <i class="icon-pencil7 text-warning"></i>
+                  </a>
+                  <a class="btn btn-default btn-icon btn-xs" (click)="deleteBCA(bca.id)">
+                    <i class="icon-eraser2 text-danger"></i>
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

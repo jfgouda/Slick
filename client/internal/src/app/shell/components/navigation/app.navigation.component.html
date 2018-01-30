@@ -1,0 +1,40 @@
+<div class="sidebar-content">
+  <div class="sidebar-category sidebar-category-visible">
+    <div class="category-content no-padding">
+      <ul class="navigation navigation-main navigation-accordion">
+        <li>
+          <a>
+            <i class="icon-chart"></i>
+            <span>BCA MANAGER</span>
+          </a>
+          <ul>
+            <li id="editSketchLinkMenu" routerLinkActive="active">
+              <a id="editSketchLink" [routerLink]="['/bca/list']">
+                <i class="icon-search4"></i> Search BCA</a>
+            </li>
+            <li id="generateSketchLinkMenu" routerLinkActive="active">
+              <a id="generateSketchLink" [routerLink]="['/bca/create']">
+                <i class="icon-database-add"></i> Create BCA</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a>
+            <i class="icon-design"></i>
+            <span>SKETCH GENERATOR</span>
+          </a>
+          <ul>
+            <li id="editSketchLinkMenu" routerLinkActive="active">
+              <a id="editSketchLink" [routerLink]="['/template']">
+                <i class="icon-make-group"></i> Template Selection</a>
+            </li>
+            <li id="generateSketchLinkMenu" routerLinkActive="active">
+              <a id="generateSketchLink" [routerLink]="['/sketch']">
+                <i class="icon-rulers"></i> Generated Skitch</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

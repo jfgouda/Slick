@@ -1,0 +1,26 @@
+<div id="contentPanel" class="panel panel-flat border-top border-top-info">
+  <div class="panel-heading">
+    <div class="heading-elements">
+      <span class="heading-text" [ngClass]="{ 'text-danger-600': connectivityStatus.cahceAvailability === 0, 'text-orange-400':  connectivityStatus.cahceAvailability === 1, 'text-success-600': connectivityStatus.cahceAvailability === 2 }">
+        <i data-popup="tooltip" [attr.data-original-title]="connectivityStatus.fetchStopwacthe.cacheDuration" data-placement="left" class="icon-database-time2"></i>
+      </span>
+      <span class="heading-text" [ngClass]="{ 'text-success-600': connectivityStatus.networkAvailability, 'text-danger-600': !connectivityStatus.networkAvailability }">
+        <i class="icon-connection"></i>
+      </span>
+      <span class="heading-text" [ngClass]="{ 'text-danger-600': connectivityStatus.serverAvailability === 0, 'text-orange-400': connectivityStatus.serverAvailability === 1, 'text-success-600': connectivityStatus.serverAvailability === 2 }">
+        <i data-popup="tooltip" [attr.data-original-title]="connectivityStatus.fetchStopwacthe.serverDuration" data-placement="left" class="icon-server"></i>
+      </span>
+    </div>
+  </div>
+
+  <div style="padding: 0px 20px;">
+    <alert></alert>
+    <!-- <div *ngIf="!executionMessage" class="alert alert-danger" style="margin-bottom: 0px;">
+      <img src="assets/images/spinner.gif" height="30" width="30" style="margin-right: 10px;"> Fetching data, please wait...
+    </div>
+    <div *ngIf="executionMessage" class="alert alert-info" style="margin-bottom: 0px;">
+      {{executionMessage}}
+      <br /> {{executionDetails}}
+    </div> -->
+  </div>
+</div>
